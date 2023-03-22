@@ -1,0 +1,68 @@
+.home__header {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.home__header-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+
+
+
+.home__header-buttons {
+    display: flex;
+}
+
+
+
+
+
+.card__button {
+    padding: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.card__buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.buttom_blue {
+    display: block;
+    /* margin: 0 auto; */
+    width: 135px;
+    background-color: #4f4ff5;
+    color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin: 5px;
+
+}
+
+.buttom_blue:active {
+    color: #c90a73;
+}
+
+.buttom_showMore {
+    margin: 0 auto;
+}

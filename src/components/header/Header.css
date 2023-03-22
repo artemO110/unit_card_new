@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    background: #2b2b2b;
+    color: aliceblue;
+    font-weight: 600;
+    font-size: 24px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
