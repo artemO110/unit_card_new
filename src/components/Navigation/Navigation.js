@@ -1,13 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { useLocation } from "react-router-dom";
 import "../Navigation/Navigation.css"
 
 const Navigation = () => {
-
-    const location = useLocation();
-    const { pathname } = location;
-    const splitLocation = pathname.split("/");
 
     return (
         <nav className="menu">
